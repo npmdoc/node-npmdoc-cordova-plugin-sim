@@ -1,0 +1,135 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/pbakondy/cordova-plugin-sim#readme"
+
+    >cordova-plugin-sim (v1.3.3)</a>
+</h1>
+<h4>A plugin to get the device's SIM data (carrier name, mcc mnc, country code, telephonenumber, imei, etc)</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-sim">module cordova-plugin-sim</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-sim.</span>sim</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-sim.sim">module cordova-plugin-sim.sim</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-sim.sim.getSimInfo">
+            function <span class="apidocSignatureSpan">cordova-plugin-sim.sim.</span>getSimInfo
+            <span class="apidocSignatureSpan">(successCallback, errorCallback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-sim" id="apidoc.module.cordova-plugin-sim">module cordova-plugin-sim</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-sim.sim" id="apidoc.module.cordova-plugin-sim.sim">module cordova-plugin-sim.sim</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-sim.sim.getSimInfo" id="apidoc.element.cordova-plugin-sim.sim.getSimInfo">
+        function <span class="apidocSignatureSpan">cordova-plugin-sim.sim.</span>getSimInfo
+        <span class="apidocSignatureSpan">(successCallback, errorCallback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSimInfo = function (successCallback, errorCallback) {
+  cordova.exec(successCallback, errorCallback, &#x27;Sim&#x27;, &#x27;getSimInfo&#x27;, []);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+## Usage
+
+```js
+document.addEventListener(&#x22;deviceready&#x22;, onDeviceReady, false);
+
+function onDeviceReady() {
+  window.plugins.sim.<span class="apidocCodeKeywordSpan">getSimInfo</span>(successCallback, errorCallback);
+}
+
+function successCallback(result) {
+  console.log(result);
+}
+
+function errorCallback(error) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
