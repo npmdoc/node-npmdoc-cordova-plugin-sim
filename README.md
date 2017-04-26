@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-sim
 
-#### api documentation for  [cordova-plugin-sim (v1.3.3)](https://github.com/pbakondy/cordova-plugin-sim#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-sim.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-sim) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-sim.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-sim)
+#### basic api documentation for  [cordova-plugin-sim (v1.3.3)](https://github.com/pbakondy/cordova-plugin-sim#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-sim.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-sim) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-sim.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-sim)
 
 #### A plugin to get the device's SIM data (carrier name, mcc mnc, country code, telephonenumber, imei, etc)
 
@@ -80,7 +80,8 @@
         "url": "git+https://github.com/pbakondy/cordova-plugin-sim.git"
     },
     "scripts": {},
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
